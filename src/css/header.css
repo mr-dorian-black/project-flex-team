@@ -93,6 +93,11 @@
         font-weight: 400;
         line-height: 1.28;
         letter-spacing: -0.56px;
+        transition: color var(--transition);
+    }
+
+    .header-nav-item:hover, .header-nav-item:focus {
+        color: var(--color-green);
     }
 
     .header-logo {
@@ -111,6 +116,12 @@
         height: 20px;
         fill: transparent;
         stroke: var(--color-black);
+        transition: stroke var(--transition);
+    }
+
+    .header-btn-shop:hover .header-shop-svg,
+    .header-btn-shop:focus .header-shop-svg {
+        stroke: var(--color-green);
     }
 }
 
@@ -147,6 +158,10 @@
         letter-spacing: -0.56px;
     }
 
+    .header-nav-item:hover, .header-nav-item:focus {
+        color: var(--color-green);
+    }
+
     .header-logo {
         margin-right: 525px;
     }
@@ -164,6 +179,11 @@
         fill: transparent;
         stroke: var(--color-black);
     }
+
+    .header-btn-shop:hover .header-shop-svg,
+    .header-btn-shop:focus .header-shop-svg {
+        stroke: var(--color-green);
+    }
 }
 
 
@@ -176,6 +196,12 @@
     width: 100%;
     height: 100%;
     background-color: var(--color-background);
+    transform: translateX(100%);
+    transition: var(--transition);
+}
+
+.mob-menu.is-open {
+    transform: translateX(0);
 }
 
 .mob-header {
@@ -185,7 +211,6 @@
     margin-left: auto;
     margin-right: auto;
     padding-left: 20px;
-    padding-right: 20px;
 }
 
 .mob-logo-svg {
@@ -195,6 +220,10 @@
 }
 
 .mob-btn-close {
+    position: absolute;
+    padding: 0;
+    top: 13px;
+    right: 20px;
     border: none;
     background-color: transparent;
 }
@@ -213,6 +242,7 @@
 .mob-btn-shop {
     border: none;
     background-color: transparent;
+    padding: 0;
 }
 
 .mob-shop-svg {
@@ -220,4 +250,42 @@
     height: 20px;
     fill: transparent;
     stroke: var(--color-white);
+}
+
+.mob-logo {
+    display: flex;
+    gap: 8px;
+    margin-right: 138px;
+        
+    color: var(--color-black);
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.28;
+    letter-spacing: -0.56px;
+    text-transform: uppercase;
+}
+
+.mob-content {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding-top: 124px;
+}
+
+.mob-navigation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.mob-nav-item {
+    color: var(--color-white);
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.28;
+    letter-spacing: -0.56px;
 }
