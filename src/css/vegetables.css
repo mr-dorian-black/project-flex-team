@@ -152,3 +152,39 @@ margin-left: 24px;
     min-width: 389px;
 }
 }
+.veg-shadow {
+    fill: var(--color-black);
+opacity: 0.10000000149011612;
+filter: blur(13.591408729553223px);
+margin-bottom: 22px;
+}
+
+.icon-button {
+  display: inline-block;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  background-color: var(--color-orange);
+  border: none;
+  cursor: pointer;
+}
+
+.icon-button {
+display: block;
+margin: auto;
+text-align: center;
+text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.10);
+font-family: DM Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 18px;
+letter-spacing: -0.56px;
+text-transform: uppercase; 
+color: var(--color-white);
+transform: rotate(-14deg);
+}
+.icon-button-icon {
+fill: var(--color-white);
+margin-right: 4px;
+}
