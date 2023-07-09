@@ -20,7 +20,7 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 
-  --transition: 0.3s ease;
+  --transition: 0.3s linear;
 
   --color-black: #141414;
   --color-green: #a1c487;
