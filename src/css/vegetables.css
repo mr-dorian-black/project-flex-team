@@ -1,13 +1,66 @@
-.vegetables-table {
-    padding-top: 124px;
-    padding-bottom: 278px;
+.vegetables-container {
+    max-width: 1280px;
+    margin: auto;
 }
-.vegetables-title {
-display: flex;
 
+.vegetables-main-container {
+padding: 20px;
+}
+
+.veg-title-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+    padding: 0 20px;
+}
+.vegetables {
+    display: block;
+    padding-top: 124px;
+    padding-bottom: 40px;
+}
+.vegetables-list {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.vegetables-list-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 40px 20px 20px;
+    border-radius: 20px;
+    min-height: 443px;
+    background-color: var(--color-green-light);
+    margin-right: 0;
+    width: 100%;
+    min-width: 335px;
+}
+
+.vegetables-list-item {
+width: calc((100% - 40px) / 3);
+display: flex;
 flex-direction: column;
-justify-content: center;
-color: #141414;
+justify-content: space-between;
+width: auto;
+padding: 40px 20px 20px;
+border-radius: 20px;
+min-height: 443px;
+background-color: var(--color-green-light);
+margin-right: 0;
+min-width: 335px;
+max-width: 335px;
+}
+
+.vegetables-list-item img {
+    align-self: center;
+    width: fit-content;
+}
+
+.vegetables-title {
+color: var(--color-black);
 text-align: center;
 text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.10);
 font-family: DM Sans;
@@ -17,17 +70,85 @@ font-weight: 500;
 line-height: 44px;
 letter-spacing: -1.6px;
 text-transform: uppercase;
+display: flex;
+max-width: 624px;
+flex-direction: column;
+justify-content: center;
+margin-bottom: 14px;
 }
+.vegetables-descr {
+color: var(--color-black);   
+text-align: center;
+text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.10);
+font-family: DM Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: -0.72px;
+display: flex;
+max-width: 562px;
+flex-direction: column;
+justify-content: center;
+margin-bottom: 40px;
+}
+
+.veg-name {
+color: var(--color-black);
+font-family: DM Sans;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: 38px;
+letter-spacing: -1.28px;
+margin-left: 24px;
+}
+.veg-type {
+color: var(--color-black);
+font-family: DM Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: -0.36px;
+margin-left: 24px;
+}
+.veg-price {
+color: var(--color-black);
+font-family: DM Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: -0.72px;
+margin-left: 24px;
+}
+
+@media screen and (min-width: 768px) {
+.vegetables-main-container {
+    padding: 32px;
+}
+
+.vegetables-list-item {
+    padding: 64px 24px 24px;
+}
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+.vegetables-list-item {
+    width: calc((100% - 64px) / 3);
+    min-width: 342px;
+}
+}
+
+@media screen and (min-width: 1280px) {
 .vegetables-list {
-    display: flex;
-    flex-direction: column;
-    gap: 48px;
-    justify-content: center;
-    align-items: center;
+    gap: 24px;
 }
-.vegetables-list-container {
-position: relative;
-display: block;
-height: auto;
-max-width: 100%;
+
+.vegetables-list-item {
+    width: calc((100% - 64px) / 3);
+    min-width: 389px;
+}
 }
