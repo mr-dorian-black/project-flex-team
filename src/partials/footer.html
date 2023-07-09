@@ -1,87 +1,61 @@
-<html>
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
-        integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="/src/css/footer.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700&display=swap"
-        rel="stylesheet">
-    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
-    <link href='https://fonts.googleapis.com/css?family=DM Sans' rel='stylesheet'>
-    <title>Webstudio</title>
-</head>
-<body>
-
-        <footer class="footer">
-            <div class="foot-container">
-                <div class="foot-logo-box">
-                    <ul class="foot-logo-list">
-                        <li class="foot-logo">
-                            <img
-                                srcset="
-                                /src/img/vegetable.jpg    1x,
-                                /src/img/vegetable-2x.jpg 2x
-                                " 
-                                src="/src/img/vegetable.jpg"
-                                alt="Veggie boost logo"
-                                width="349"
-                                height="217"
-                            >
-                        </li>
-                        <li class="foot-logo-text">
-                            <svg class="logo-icon" width="16" height="16">
-                                <use href="/src/img/sprite.svg#icon-logo"></use>
-                            </svg>
-                            VEGGIEBOOST
-                        </li>
-                    </ul>
+    <footer class="footer">
+        <div class="foot-container">
+            <div class="blocks">
+                <div class="logo-images">
+                    <img
+                        srcset="
+                        /src/img/vegetable.jpg    1x,
+                        /src/img/vegetable-2x.jpg 2x
+                        " 
+                        src="/src/img/vegetable.jpg"
+                        alt="Veggie boost logo"
+                    >
+                    <div class="logo">
+                        <svg class="foot-logo-icon" viewBox="0 0 17 16">
+                            <use href="/src/img/sprite.svg#icon-logo"></use>
+                        </svg>
+                        <a class="foot-logo-text">veggieboost</a>
+                    </div>
                 </div>
-                <div class="footer-nav">
+                <div class="footer-menu">
                     <ul>
                         <li><a href="#howitworks">How It Works</a></li>
                         <li><a href="#vegetables">Vegetables</a></li>
                         <li><a href="#contacts">Contacts</a></li>
                     </ul>
                 </div>
-                <div class="foot-social-box">
-                    <ul class="foot-social-list">
-                        <li class="foot-social-item">
-                            <a href="" class="foot-social-item-link" target="_blank" rel="noopener noreferrer">
-                                <svg class="social-icon" width="44" height="44">
-                                    <use href="/src/img/sprite.svg#icon-facebook"></use>
-                                </svg></a>
+            </div>
+            <div class="social-contact">
+                <ul class="foot-social-list">
+                    <li class="foot-social-item">
+                        <a href="" class="foot-social-item-link" target="_blank" rel="noopener noreferrer">
+                            <svg class="foot-social-icon" width="44" height="44">
+                                <use href="/src/img/sprite.svg#icon-facebook"></use>
+                            </svg></a>
+                    </li>
+                    <li class="foot-social-item">
+                        <a href="" class="foot-social-item-link" target="_blank" rel="noopener noreferrer">
+                            <svg class="foot-social-icon" width="44" height="44">
+                                <use href="/src/img/sprite.svg#icon-instagram"></use>
+                            </svg></a>
+                    </li>
+                    <li class="foot-social-item">
+                        <a href="" class="foot-social-item-link" target="_blank" rel="noopener noreferrer">
+                            <svg class="foot-social-icon" width="44" height="44">
+                                <use href="/src/img/sprite.svg#icon-youtube"></use>
+                            </svg></a>
+                    </li>
+                </ul>
+                <address class="contact-item">
+                    <ul class="contact-item-list">
+                        <li>
+                            <a class="footer-tel" href="tel:+380684439426">+380 (68) 443-94-26</a>
                         </li>
-                        <li class="foot-social-item">
-                            <a href="" class="foot-social-item-link" target="_blank" rel="noopener noreferrer">
-                                <svg class="social-icon" width="44" height="44">
-                                    <use href="/src/img/sprite.svg#icon-instagram"></use>
-                                </svg></a>
-                        </li>
-                        <li class="foot-social-item">
-                            <a href="" class="foot-social-item-link" target="_blank" rel="noopener noreferrer">
-                                <svg class="social-icon" width="44" height="44">
-                                    <use href="/src/img/sprite.svg#icon-youtube"></use>
-                                </svg></a>
+                        <li>
+                            <a class="footer-address">1678 S. Pioneer Road<br/>Salt Lake City<br/>UT 84104</a>
                         </li>
                     </ul>
-                    <address class="contact-item">
-                        <ul class="contact-item-list">
-                            <li>
-                                <a class="footer-tel" href="tel:+380684439426">+380 (68) 443-94-26</a>
-                            </li>
-                            <li>
-                                <a class="footer-address">1678 S. Pioneer Road</br>Salt Lake City</br>UT 84104</a>
-                            </li>
-                        </ul>
-                    </address>
-                </div>
+                </address>
             </div>
-        </footer>
-</body>
-
-</html>
+        </div>
+    </footer>
