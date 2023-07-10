@@ -148,6 +148,11 @@
     max-width: 768px;
     padding: 64px 32px 32px 32px;
   }
+
+  .reviewer-item:not(:first-child) {
+    margin-left: -20px;
+  }
+
   .reviewer-list {
     margin-bottom: 16px;
   }
@@ -206,6 +211,10 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
+  }
+
+  .reviewer-item:not(:first-child) {
+    margin-left: -25px;
   }
 
   .reviewer-list {
