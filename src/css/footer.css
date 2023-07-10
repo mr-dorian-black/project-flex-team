@@ -35,6 +35,11 @@
   display: flex;
   align-items: center;
   gap: 8px;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: -0.04em;
+  line-height: 1.28;
+  text-transform: uppercase;
 }
 
 .foot-logo-icon {
@@ -50,14 +55,6 @@
   font-weight: 700;
   line-height: 1.28;
   letter-spacing: -0.04em;
-  text-transform: uppercase;
-}
-
-.foot-logo-text {
-  font-size: 14px;
-  font-weight: 700;
-  letter-spacing: -0.04em;
-  line-height: 1.28;
   text-transform: uppercase;
 }
 
@@ -80,6 +77,11 @@
   font-weight: 400;
   letter-spacing: -0.04em;
   line-height: 1.28;
+  transition: color var(--transition);
+}
+
+.footer-nav-item:is(:hover, :focus) {
+  color: var(--color-green);
 }
 
 .social-contact {
