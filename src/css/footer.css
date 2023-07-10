@@ -26,6 +26,8 @@
 }
 
 .logo-images img {
+  width: 349px;
+  height: auto;
   border-radius: 100px;
 }
 
@@ -103,14 +105,16 @@
   justify-content: center;
   border-radius: 10px;
   border: 1px solid #141414;
+  transition: border-color var(--transition), fill var(--transition);
 }
 
 .foot-social-item:is(:hover, :focus) {
   border-color: var(--color-green);
+  fill: var(--color-green);
 }
 
-.foot-social-item:is(:hover, :focus) .foot-social-icon {
-  fill: var(--color-green);
+.foot-social-icon {
+  fill: inherit;
 }
 
 .foot-social-icon {

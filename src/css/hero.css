@@ -89,6 +89,7 @@
   border: none;
   background-color: var(--color-background);
   transform: rotate(-14deg);
+  transition: background-color var(--transition), color var(--transition);
 }
 
 .hero-btn:hover,
