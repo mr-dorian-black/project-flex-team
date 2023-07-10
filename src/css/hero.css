@@ -265,7 +265,6 @@
   }
   .page-nav {
     max-width: 266px;
-    /* align-self: flex-end; */
     margin-left: auto;
   }
   .page-nav-item {

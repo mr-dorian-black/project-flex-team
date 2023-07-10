@@ -111,8 +111,7 @@
     transition: stroke var(--transition);
   }
 
-  .header-btn-shop:hover .header-shop-svg,
-  .header-btn-shop:focus .header-shop-svg {
+  .header-btn-shop:is(:hover, :focus) .header-shop-svg {
     stroke: var(--color-green);
   }
 }
@@ -149,8 +148,7 @@
     letter-spacing: -0.56px;
   }
 
-  .header-nav-item:hover,
-  .header-nav-item:focus {
+  .header-nav-item:is(:hover, :focus) {
     color: var(--color-green);
   }
 
@@ -166,10 +164,10 @@
     height: 20px;
     fill: transparent;
     stroke: var(--color-black);
+    transition: stroke var(--transition);
   }
 
-  .header-btn-shop:hover .header-shop-svg,
-  .header-btn-shop:focus .header-shop-svg {
+  .header-btn-shop:is(:hover, :focus) .header-shop-svg {
     stroke: var(--color-green);
   }
 }
