@@ -13,8 +13,8 @@
       referrerpolicy="no-referrer"
     />
     
-    <script type="module" crossorigin src="/project-flex-team/assets/index-a32bd397.js"></script>
-    <link rel="stylesheet" href="/project-flex-team/assets/index-2b045f80.css">
+    <script type="module" crossorigin src="/project-flex-team/assets/index-182db2f4.js"></script>
+    <link rel="stylesheet" href="/project-flex-team/assets/index-ebf5be27.css">
   </head>
   <body>
     
@@ -301,7 +301,7 @@
         <p class="veg-price">90 UAH / kg</p>
       </li>
     </ul>
-    <button type="button" class="vegetables-button">
+    <button type="button" class="vegetables-button" data-modal-open>
       <svg width="14" height="14" class="vegetables-button-svg">
         <use href="../img/sprite.svg#icon-arrow"></use></svg
       >order
@@ -313,8 +313,144 @@
     </main>
 
     
-    
+    <div class="backdrop is-hidden" data-modal>
+  <div class="modal-window modal-case">
+    <button type="button" class="modal-close-btn" data-modal-close>
+      <svg class="modal-close-btn-icon" width="24" height="24">
+        <use href="../img/sprite.svg#icon-close"></use>
+      </svg>
+    </button>
+    <h2 class="modal-title">Your Order</h2>
+    <ul class="modal-card-list list">
+      <li class="modal-card-item">
+        <input
+          type="checkbox"
+          class="input-checkbox visually-hidden"
+          id="checked-product-cabbage"
+          name="checked-product"
+          value="true"
+          checked
+        />
+        <label for="checked-product-cabbage" class="form-checkbox">
+          <div class="modal-card-title-case">
+            <h3 class="modal-card-title">Cabbage Basket</h3>
+            <p class="modal-card-text">Plant</p>
+          </div>
+          <img
+            srcset="../img/cabbage.png 1x, ../img/cabbage-2x.png 2x"
+            src="../img/cabbage.png"
+            class="modal-card-img" />
+          <span class="modal-span-chekbox">
+            <svg class="checkbox-icon" width="9" height="9">
+              <use href="../img/sprite.svg#icon-check"></use>
+            </svg> </span
+        ></label>
+      </li>
+      <li class="modal-card-item">
+        <input
+          type="checkbox"
+          class="input-checkbox visually-hidden"
+          id="checked-product-tomato"
+          name="checked-product"
+          value="true"
+        />
+        <label for="checked-product-tomato" class="form-checkbox">
+          <div class="modal-card-title-case">
+            <h3 class="modal-card-title">Tomato Basket</h3>
+            <p class="modal-card-text">Plant</p>
+          </div>
+          <img
+            srcset="../img/tomatos.png 1x, ../img/tomatos-2x.png 2x"
+            src="../img/tomatos.png"
+            class="modal-card-img" />
+          <span class="modal-span-chekbox">
+            <svg class="checkbox-icon" width="9" height="9">
+              <use href="../img/sprite.svg#icon-check"></use>
+            </svg> </span
+        ></label>
+      </li>
+      <li class="modal-card-item">
+        <input
+          type="checkbox"
+          class="input-checkbox visually-hidden"
+          id="checked-product-vegetables"
+          name="checked-product"
+          value="true"
+        />
+        <label for="checked-product-vegetables" class="form-checkbox">
+          <div class="modal-card-title-case">
+            <h3 class="modal-card-title">Vegetables Basket</h3>
+            <p class="modal-card-text">Plant</p>
+          </div>
+          <img
+            srcset="../img/vegetables-2.png 1x, ../img/vegetables-2-2x.png 2x"
+            src="../img/vegetables-2.png"
+            alt="vegetables"
+            class="modal-card-img" />
+          <span class="modal-span-chekbox">
+            <svg class="checkbox-icon" width="9" height="9">
+              <use href="../img/sprite.svg#icon-check"></use>
+            </svg> </span
+        ></label>
+      </li>
+    </ul>
+    <form class="modal-form">
+      <div class="modal-field">
+        <input
+          type="text"
+          class="form-input"
+          id="user-name"
+          name="user-name"
+          placeholder="Enter full name..."
+        />
+        <input
+          type="email"
+          class="form-input"
+          id="user-email"
+          name="user-email"
+          placeholder="Enter email..."
+        />
+        <input
+          type="number"
+          class="form-input"
+          id="user-card"
+          name="user-card"
+          placeholder="Enter card..."
+          pattern="/^([0-9]{4}( |\-)){3}[0-4]{4}$/"
+        />
+        <textarea
+          name="user-comments"
+          id="user-comments"
+          class="user-comment"
+          cols="30"
+          rows="10"
+          placeholder="Enter comments..."
+        ></textarea>
+      </div>
+      <button type="submit" class="submit-btn">Submit</button>
+    </form>
+    <picture class="modal-background-img">
+      <source
+        srcset="
+          ../img/girl-1-modal-desktop.png    1x,
+          ../img/girl-1-modal-desktop-2x.png 2x
+        "
+        media="(min-width: 1280px)"
+      />
+      <source
+        srcset="
+          ../img/girl-1-modal-tablet.png    1x,
+          ../img/girl-1-modal-tablet-2x.png 2x
+        "
+        media="(min-width: 768px)"
+      />
+      <img src="../img/girl-1-modal-desktop.png" alt="girl with leaves" />
+    </picture>
+  </div>
+</div>
 
+
+    
     
   </body>
 </html>
