@@ -229,7 +229,7 @@
   }
 
   .vegetables-list-item:last-child {
-    display: block;
+    display: flex;
   }
 
   .vegetables-title {
