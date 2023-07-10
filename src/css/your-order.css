@@ -22,7 +22,9 @@
   position: absolute;
   width: calc((100% - 40px));
   max-width: 335px;
-  min-height: 903px;
+  height: 100%;
+  max-height: 903px;
+  overflow-y: auto;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scale(1);
@@ -237,7 +239,7 @@
 @media screen and (min-width: 768px) and (max-width: 1279px) {
   .modal-window {
     max-width: 704px;
-    min-height: 853px;
+    max-height: 853px;
     padding: 40px;
   }
 
@@ -315,7 +317,7 @@
 @media screen and (min-width: 1280px) {
   .modal-window {
     max-width: 891px;
-    min-height: 911px;
+    max-height: 911px;
     padding: 40px;
   }
   .modal-close-btn {
