@@ -99,7 +99,7 @@
   justify-content: center;
 }
 
-.foot-social-item {
+.foot-social-item-link {
   width: 40px;
   height: 40px;
   display: flex;
@@ -110,7 +110,7 @@
   transition: border-color var(--transition), fill var(--transition);
 }
 
-.foot-social-item:is(:hover, :focus) {
+.foot-social-item-link:is(:hover, :focus) {
   border-color: var(--color-green);
   fill: var(--color-green);
 }
@@ -167,7 +167,7 @@
     align-items: flex-start;
   }
 
-  .foot-social-item {
+  .foot-social-item-link {
     width: 44px;
     height: 44px;
   }
@@ -195,7 +195,7 @@
     gap: 166px;
   }
 
-  .foot-social-item {
+  .foot-social-item-link {
     width: 44px;
     height: 44px;
   }
