@@ -13,8 +13,8 @@
       referrerpolicy="no-referrer"
     />
     
-    <script type="module" crossorigin src="/project-flex-team/assets/index-d59e648b.js"></script>
-    <link rel="stylesheet" href="/project-flex-team/assets/index-c8c2bcd2.css">
+    <script type="module" crossorigin src="/project-flex-team/assets/index-4f3cc275.js"></script>
+    <link rel="stylesheet" href="/project-flex-team/assets/index-c561103c.css">
   </head>
   <body>
     <header class="page-header">
@@ -22,13 +22,13 @@
     <nav class="header-menu">
       <ul class="header-navigation">
         <li class="header-nav-item">
-          <a href="">How It Works</a>
+          <a href="#order">How It Works</a>
         </li>
         <li class="header-nav-item">
-          <a href="">Vegetables</a>
+          <a href="#vegetables">Vegetables</a>
         </li>
         <li class="header-nav-item">
-          <a href="">Contacts</a>
+          <a href="#contacts">Contacts</a>
         </li>
       </ul>
       <a class="header-logo" href="./index.html">
@@ -51,7 +51,7 @@
     </button>
     <button
       type="button"
-      class="mob-btn-close menu-toggle js-close-menu is-close"
+      class="mob-btn-close menu-toggle js-close-menu-btn is-close"
     >
       <svg class="mob-close-svg">
         <use href="/project-flex-team/assets/sprite-95b9ed2d.svg#icon-close"></use>
@@ -62,14 +62,14 @@
   <div class="mob-menu js-menu-container">
     <div class="mob-content">
       <ul class="mob-navigation">
-        <li class="mob-nav-item">
-          <a href="">How It Works</a>
+        <li class="mob-nav-item js-close-menu">
+          <a href="#order">How It Works</a>
         </li>
-        <li class="mob-nav-item">
-          <a href="">Vegetables</a>
+        <li class="mob-nav-item js-close-menu">
+          <a href="#vegetables">Vegetables</a>
         </li>
-        <li class="mob-nav-item">
-          <a href="">Contacts</a>
+        <li class="mob-nav-item js-close-menu">
+          <a href="#contacts">Contacts</a>
         </li>
       </ul>
       <button type="button" class="mob-btn-shop">
@@ -83,7 +83,7 @@
 
 
     <main>
-      <section class="hero">
+      <section class="hero" id="hero">
   <div class="hero-container">
     <div class="hero-info">
       <ul class="reviewer-list">
@@ -125,7 +125,7 @@
         covered. Fresh, high-quality vegetables in expertly curated vegetable
         baskets delivered to you.
       </p>
-      <button type="button" class="hero-btn hero-modal-open">shop now</button>
+      <button type="button" class="hero-btn data-modal-open">shop now</button>
     </div>
     <picture class="girl">
       <source
@@ -144,16 +144,16 @@
     </picture>
     <ul class="page-nav">
       <li class="page-nav-item current">
-        <a class="page-nav-link" href="">#organic</a>
+        <a class="page-nav-link" href="#hero">#organic</a>
       </li>
       <li class="page-nav-item">
-        <a class="page-nav-link" href="">#products</a>
+        <a class="page-nav-link" href="#order">#products</a>
       </li>
       <li class="page-nav-item">
         <a class="page-nav-link" href="">#basket</a>
       </li>
       <li class="page-nav-item">
-        <a class="page-nav-link" href="">#vegetables</a>
+        <a class="page-nav-link" href="#vegetables">#vegetables</a>
       </li>
     </ul>
   </div>
@@ -238,7 +238,7 @@
 </section>
 <!-- ======= How it works END ======= -->
 
-      <section class="vegetables">
+      <section class="vegetables" id="vegetables">
   <div class="vegetables-container">
     <h2 class="vegetables-title">organic vegetables</h2>
     <p class="vegetables-descr">
@@ -454,7 +454,7 @@
         <p class="veg-price">90 UAH / kg</p>
       </li>
     </ul>
-    <button type="button" class="vegetables-button vegetables-modal-open">
+    <button type="button" class="vegetables-button data-modal-open">
       <svg width="14" height="14" class="vegetables-button-svg">
         <use href="/project-flex-team/assets/sprite-95b9ed2d.svg#icon-arrow"></use></svg
       >order
@@ -484,7 +484,7 @@
       <div class="footer-menu">
         <ul class="footer-nav-list">
           <li class="footer-nav-item">
-            <a href="#howitworks">How It Works</a>
+            <a href="#order">How It Works</a>
           </li>
           <li class="footer-nav-item"><a href="#vegetables">Vegetables</a></li>
           <li class="footer-nav-item"><a href="#contacts">Contacts</a></li>
