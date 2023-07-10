@@ -8,6 +8,8 @@
       openMenuBtn.getAttribute('aria-expanded') === 'true' || false;
     openMenuBtn.setAttribute('aria-expanded', !isMenuOpen);
     mobileMenu.classList.toggle('is-open');
+    openMenuBtn.classList.toggle('is-close');
+    closeMenuBtn.classList.toggle('is-close');
   };
 
   openMenuBtn.addEventListener('click', toggleMenu);
@@ -17,6 +19,8 @@
   window.matchMedia('(min-width: 768px)').addEventListener('change', e => {
     if (!e.matches) return;
     mobileMenu.classList.remove('is-open');
+    closeMenuBtn.classList.add('is-close');
+    openMenuBtn.classList.remove('is-close');
     openMenuBtn.setAttribute('aria-expanded', false);
   });
 })();
