@@ -28,6 +28,7 @@ a {
 button {
   cursor: pointer;
   font-family: inherit;
+  padding: 0;
 }
 
 input {
