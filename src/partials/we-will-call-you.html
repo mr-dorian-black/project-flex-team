@@ -1,0 +1,57 @@
+<section class="contacts" id="contacts">
+  <div class="contacts-container">
+    <div class="contacts-info">
+      <h2 class="contacts-title">Fresh Harvest Box has got you covered</h2>
+      <p class="contacts-text">
+        Our boxes are packed with delicious, nutritious vegetables, perfect for
+        anyone looking to eat healthier or support local farmers. Order your box
+        today and start enjoying the best that nature has to offer!
+      </p>
+      <form>
+        <label class="contacts-input-content">
+          <input
+            type="tel"
+            class="contacts-input"
+            placeholder="+380 ()"
+            pattern="^(?:\+38)?(?:\(044\)[ .-]?[0-9]{3}[ .-]?[0-9]{2}[ .-]?[0-9]{2}|044[ .-]?[0-9]{3}[ .-]?[0-9]{2}[ .-]?[0-9]{2}|044[0-9]{7})$"
+            required
+          />
+          <button type="submit" class="contacts-button">Recall</button>
+        </label>
+      </form>
+    </div>
+    <div class="contacts-photo">
+      <picture class="contacts-img">
+        <source
+          srcset="
+            ./img/contacts-girl-desktop.png    1x,
+            ./img/contacts-girl-desktop-2x.png 2x
+          "
+          media="(min-width: 1280px)"
+        />
+        <source
+          srcset="
+            ./img/contacts-girl-tablet.png    1x,
+            ./img/contacts-girl-tablet-2x.png 2x
+          "
+          media="(min-width: 768px)"
+        />
+        <source
+          srcset="
+            ./img/contacts-girl-mobile.png    1x,
+            ./img/contacts-girl-mobile-2x.png 2x
+          "
+          media="(min-width: 375px)"
+        />
+        <img
+          srcset="
+            ./img/contacts-girl-desktop.png    1x,
+            ./img/contacts-girl-desktop-2x.png 2x
+          "
+          src="./img/contacts-girl-desktop.png"
+          alt="girl with vegetable"
+        />
+      </picture>
+    </div>
+  </div>
+</section>

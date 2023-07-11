@@ -133,8 +133,8 @@
 }
 .girl {
   align-self: center;
-  width: 278px;
-  height: 228px;
+  max-width: 278px;
+  height: auto;
   margin-bottom: 16px;
 }
 /* MEDIA */
@@ -190,8 +190,8 @@
     margin-bottom: 16px;
   }
   .girl {
-    width: 466px;
-    height: 380px;
+    max-width: 466px;
+    height: auto;
     overflow: visible;
     margin-bottom: 8px;
   }
@@ -248,8 +248,8 @@
     margin-bottom: 32px;
   }
   .girl {
-    width: 515px;
-    height: 423px;
+    max-width: 515px;
+    height: auto;
     overflow: visible;
   }
   .hero-info {

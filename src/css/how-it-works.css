@@ -53,8 +53,13 @@
   overflow: hidden;
   padding-bottom: 0;
   border-radius: 40px;
-  background-size: 50px 50px;
-  background-image: radial-gradient(rgba(161, 196, 135, 0.5) 4%, #faf3e7 10%);
+  background-size: 44px 44px;
+  background-position: 15px -15px;
+  background-image: radial-gradient(
+    circle,
+    rgba(161, 196, 135, 0.39) 2.5px,
+    var(--color-orange-light) 4%
+  );
 }
 
 .buy-title {
@@ -170,6 +175,7 @@
     flex-direction: row-reverse;
     padding: 40px 40px 0 0;
     gap: 40px;
+    border-radius: 80px;
   }
 
   .buy-pic-wrap {
@@ -245,6 +251,7 @@
   .order-buy-box {
     padding: 40px 80px 0;
     gap: 110px;
+    border-radius: 80px;
   }
 
   .buy-steps-box {
