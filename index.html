@@ -13,8 +13,8 @@
       referrerpolicy="no-referrer"
     />
     
-    <script type="module" crossorigin src="/project-flex-team/assets/index-086948f1.js"></script>
-    <link rel="stylesheet" href="/project-flex-team/assets/index-05a83dea.css">
+    <script type="module" crossorigin src="/project-flex-team/assets/index-aa567a4d.js"></script>
+    <link rel="stylesheet" href="/project-flex-team/assets/index-0a2150c9.css">
   </head>
   <body>
     <header class="page-header">
@@ -49,17 +49,25 @@
         <use href="/project-flex-team/assets/sprite-95b9ed2d.svg#icon-menu"></use>
       </svg>
     </button>
-    <button
-      type="button"
-      class="mob-btn-close menu-toggle js-close-menu-btn is-close"
-    >
-      <svg class="mob-close-svg">
-        <use href="/project-flex-team/assets/sprite-95b9ed2d.svg#icon-close"></use>
-      </svg>
-    </button>
   </div>
 
   <div class="mob-menu js-menu-container">
+    <div class="mob-menu-header">
+      <a class="header-logo" href="./index.html">
+        <svg class="header-logo-svg">
+          <use href="/project-flex-team/assets/sprite-95b9ed2d.svg#icon-logo"></use>
+        </svg>
+        veggieboost</a
+      >
+      <button
+        type="button"
+        class="mob-btn-close menu-toggle js-close-menu-btn is-close"
+      >
+        <svg class="mob-close-svg">
+          <use href="/project-flex-team/assets/sprite-95b9ed2d.svg#icon-close"></use>
+        </svg>
+      </button>
+    </div>
     <div class="mob-content">
       <ul class="mob-navigation">
         <li class="mob-nav-item js-close-menu">
@@ -150,7 +158,7 @@
         <a class="page-nav-link" href="#order">#products</a>
       </li>
       <li class="page-nav-item">
-        <a class="page-nav-link" href="">#basket</a>
+        <a class="page-nav-link" href="#contacts">#basket</a>
       </li>
       <li class="page-nav-item">
         <a class="page-nav-link" href="#vegetables">#vegetables</a>
@@ -368,7 +376,7 @@
           <p class="veg-type">Plant</p>
           <picture>
             <source
-              srcset="/project-flex-team/assets/leek-desktop-ff089b6d.png 1x, /project-flex-team/assets/leek-desktop-2x-af86cf89.png 2x"
+              srcset="/project-flex-team/assets/leek-desktop-0e023db5.png 1x, /project-flex-team/assets/leek-desktop-2x-af86cf89.png 2x"
               media="(min-width: 1280px)"
             />
             <source
@@ -379,7 +387,7 @@
               srcset="/project-flex-team/assets/leek-mobile-8fd4fdcc.png 1x, /project-flex-team/assets/leek-mobile-2x-03d76400.png 2x"
               media="(min-width: 375px)"
             />
-            <img src="/project-flex-team/assets/leek-desktop-ff089b6d.png" alt="Leek" />
+            <img src="/project-flex-team/assets/leek-desktop-0e023db5.png" alt="Leek" />
           </picture>
         </div>
         <p class="veg-price">50 UAH / kg</p>
@@ -462,7 +470,52 @@
   </div>
 </section>
 
-      
+      <section class="contacts" id="contacts">
+  <div class="contacts-container">
+    <div class="contacts-info">
+      <h2 class="contacts-title">Fresh Harvest Box has got you covered</h2>
+      <p class="contacts-text">
+        Our boxes are packed with delicious, nutritious vegetables, perfect for
+        anyone looking to eat healthier or support local farmers. Order your box
+        today and start enjoying the best that nature has to offer!
+      </p>
+      <form>
+        <label class="contacts-input-content">
+          <input
+            type="tel"
+            class="contacts-input"
+            placeholder="+380 ()"
+            pattern="^(?:\+38)?(?:\(044\)[ .-]?[0-9]{3}[ .-]?[0-9]{2}[ .-]?[0-9]{2}|044[ .-]?[0-9]{3}[ .-]?[0-9]{2}[ .-]?[0-9]{2}|044[0-9]{7})$"
+            required
+          />
+          <button type="submit" class="contacts-button">Recall</button>
+        </label>
+      </form>
+    </div>
+    <div class="contacts-photo">
+      <picture class="contacts-img">
+        <source
+          srcset="/project-flex-team/assets/contacts-girl-desktop-68edc87e.png 1x, /project-flex-team/assets/contacts-girl-desktop-2x-c61d8f84.png 2x"
+          media="(min-width: 1280px)"
+        />
+        <source
+          srcset="/project-flex-team/assets/contacts-girl-tablet-ece6161a.png 1x, /project-flex-team/assets/contacts-girl-tablet-2x-2947fdbf.png 2x"
+          media="(min-width: 768px)"
+        />
+        <source
+          srcset="/project-flex-team/assets/contacts-girl-mobile-8347bd2f.png 1x, /project-flex-team/assets/contacts-girl-mobile-2x-394e4ec6.png 2x"
+          media="(min-width: 375px)"
+        />
+        <img
+          srcset="/project-flex-team/assets/contacts-girl-desktop-68edc87e.png 1x, /project-flex-team/assets/contacts-girl-desktop-2x-c61d8f84.png 2x"
+          src="/project-flex-team/assets/contacts-girl-desktop-68edc87e.png"
+          alt="girl with vegetable"
+        />
+      </picture>
+    </div>
+  </div>
+</section>
+
     </main>
 
     <footer class="footer">
