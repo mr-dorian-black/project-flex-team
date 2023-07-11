@@ -275,7 +275,7 @@
     height: 48px;
   }
 
-  .modal-card-title-case {
+  .modal-card-padding {
     padding-left: 6px;
   }
   .modal-card-img {
@@ -389,7 +389,7 @@
     height: 20px;
   }
 
-  .modal-card-title-case {
+  .modal-card-padding {
     padding-left: 13px;
   }
 }
