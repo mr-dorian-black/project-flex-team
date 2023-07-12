@@ -6,84 +6,104 @@
       </svg>
     </button>
     <h2 class="modal-title">Your Order</h2>
-    <ul class="modal-card-list list">
-      <li class="modal-card-item">
-        <input
-          type="checkbox"
-          class="input-checkbox visually-hidden"
-          id="checked-product-cabbage"
-          name="checked-product"
-          value="true"
-          checked
-        />
-        <label for="checked-product-cabbage" class="form-checkbox">
-          <div>
-            <h3 class="modal-card-title modal-card-padding">Cabbage Basket</h3>
-            <p class="modal-card-text modal-card-padding">Plant</p>
-          </div>
-          <img
-            srcset="./img/cabbage.png 1x, ./img/cabbage-2x.png 2x"
-            src="./img/cabbage.png"
-            alt="Cabbage"
-            class="modal-card-img" />
-          <span class="modal-span-chekbox">
-            <svg class="checkbox-icon" width="9" height="9">
-              <use href="./img/sprite.svg#icon-check"></use>
-            </svg> </span
-        ></label>
-      </li>
-      <li class="modal-card-item">
-        <input
-          type="checkbox"
-          class="input-checkbox visually-hidden"
-          id="checked-product-tomato"
-          name="checked-product"
-          value="true"
-        />
-        <label for="checked-product-tomato" class="form-checkbox">
-          <div>
-            <h3 class="modal-card-title modal-card-padding">Tomato Basket</h3>
-            <p class="modal-card-text modal-card-padding">Plant</p>
-          </div>
-          <img
-            srcset="./img/tomatos.png 1x, ./img/tomatos-2x.png 2x"
-            src="./img/tomatos.png"
-            alt="Tomatos"
-            class="modal-card-img" />
-          <span class="modal-span-chekbox">
-            <svg class="checkbox-icon" width="9" height="9">
-              <use href="./img/sprite.svg#icon-check"></use>
-            </svg> </span
-        ></label>
-      </li>
-      <li class="modal-card-item">
-        <input
-          type="checkbox"
-          class="input-checkbox visually-hidden"
-          id="checked-product-vegetables"
-          name="checked-product"
-          value="true"
-        />
-        <label for="checked-product-vegetables" class="form-checkbox">
-          <div>
-            <h3 class="modal-card-title modal-card-padding">
-              Vegetables Basket
-            </h3>
-            <p class="modal-card-text modal-card-padding">Plant</p>
-          </div>
-          <img
-            srcset="./img/vegetables-2.png 1x, ./img/vegetables-2-2x.png 2x"
-            src="./img/vegetables-2.png"
-            alt="Vegetables"
-            class="modal-card-img" />
-          <span class="modal-span-chekbox">
-            <svg class="checkbox-icon" width="9" height="9">
-              <use href="./img/sprite.svg#icon-check"></use>
-            </svg> </span
-        ></label>
-      </li>
-    </ul>
     <form class="modal-form">
+      <ul class="modal-card-list list">
+        <li class="modal-card-item">
+          <input
+            type="checkbox"
+            class="input-checkbox visually-hidden"
+            id="checked-product-cabbage"
+            name="checked-product"
+            value="true"
+            checked
+          />
+          <label for="checked-product-cabbage" class="form-checkbox">
+            <span class="modal-card-padding">
+              <span class="modal-card-title">Cabbage Basket</span>
+              <span class="modal-card-text">Plant</span>
+            </span>
+            <picture class="modal-card-img">
+              <source
+                srcset="./img/cabbage.webp 1x, ./img/cabbage-2x.webp 2x"
+                type="image/webp"
+              />
+              <source
+                srcset="./img/cabbage.png 1x, ./img/cabbage-2x.png 2x"
+                type="image/png"
+              />
+              <img src="./img/cabbage.png" alt="Cabbage" />
+            </picture>
+            <span class="modal-span-chekbox">
+              <svg class="checkbox-icon" width="9" height="9">
+                <use href="./img/sprite.svg#icon-check"></use>
+              </svg> </span
+          ></label>
+        </li>
+        <li class="modal-card-item">
+          <input
+            type="checkbox"
+            class="input-checkbox visually-hidden"
+            id="checked-product-tomato"
+            name="checked-product"
+            value="true"
+          />
+          <label for="checked-product-tomato" class="form-checkbox">
+            <span class="modal-card-padding">
+              <span class="modal-card-title">Tomato Basket</span>
+              <span class="modal-card-text">Plant</span>
+            </span>
+            <picture class="modal-card-img">
+              <source
+                srcset="./img/tomatos.webp 1x, ./img/tomatos-2x.webp 2x"
+                type="image/webp"
+              />
+              <source
+                srcset="./img/tomatos.png 1x, ./img/tomatos-2x.png 2x"
+                type="image/png"
+              />
+              <img src="./img/tomatos.png" alt="Tomatos" />
+            </picture>
+            <span class="modal-span-chekbox">
+              <svg class="checkbox-icon" width="9" height="9">
+                <use href="./img/sprite.svg#icon-check"></use>
+              </svg> </span
+          ></label>
+        </li>
+        <li class="modal-card-item">
+          <input
+            type="checkbox"
+            class="input-checkbox visually-hidden"
+            id="checked-product-vegetables"
+            name="checked-product"
+            value="true"
+          />
+          <label for="checked-product-vegetables" class="form-checkbox">
+            <span class="modal-card-padding">
+              <span class="modal-card-title">Vegetables Basket </span>
+              <span class="modal-card-text">Plant</span>
+            </span>
+            <picture class="modal-card-img">
+              <source
+                srcset="
+                  ./img/vegetables-2.webp    1x,
+                  ./img/vegetables-2-2x.webp 2x
+                "
+                type="image/webp"
+              />
+              <source
+                srcset="./img/vegetables-2.png 1x, ./img/vegetables-2-2x.png 2x"
+                type="image/png"
+              />
+              <img src="./img/vegetables-2.png" alt="Vegetables" />
+            </picture>
+
+            <span class="modal-span-chekbox">
+              <svg class="checkbox-icon" width="9" height="9">
+                <use href="./img/sprite.svg#icon-check"></use>
+              </svg> </span
+          ></label>
+        </li>
+      </ul>
       <div class="modal-field">
         <input
           type="text"
@@ -125,19 +145,41 @@
     <picture class="modal-background-img">
       <source
         srcset="
+          ./img/girl-1-modal-desktop.webp    1x,
+          ./img/girl-1-modal-desktop-2x.webp 2x
+        "
+        type="image/webp"
+        media="(min-width: 1280px)"
+      />
+      <source
+        srcset="
           ./img/girl-1-modal-desktop.png    1x,
           ./img/girl-1-modal-desktop-2x.png 2x
         "
+        type="image/png"
         media="(min-width: 1280px)"
+      />
+      <source
+        srcset="
+          ./img/girl-1-modal-tablet.webp    1x,
+          ./img/girl-1-modal-tablet-2x.webp 2x
+        "
+        type="image/webp"
+        media="(min-width: 768px)"
       />
       <source
         srcset="
           ./img/girl-1-modal-tablet.png    1x,
           ./img/girl-1-modal-tablet-2x.png 2x
         "
+        type="image/png"
         media="(min-width: 768px)"
       />
-      <img src="./img/girl-1-modal-desktop.png" alt="girl with leaves" />
+      <img
+        src="./img/girl-1-modal-tablet.webp"
+        alt="girl with leaves"
+        type="image/webp"
+      />
     </picture>
   </div>
 </div>

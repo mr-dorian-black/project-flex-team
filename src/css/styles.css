@@ -68,4 +68,5 @@ body {
   font-family: 'DM Sans', sans-serif;
   color: var(--color-black);
   background-color: var(--color-background);
+  overflow-x: hidden;
 }

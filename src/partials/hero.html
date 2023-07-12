@@ -45,18 +45,45 @@
     <picture class="girl" data-aos="fade-left">
       <source
         srcset="
-          ./img/girl-hero-desktop.png    1x,
-          ./img/girl-hero-desktop-2x.png 2x
+          ./img/girl-hero-desktop.webp    1x,
+          ./img/girl-hero-desktop-2x.webp 2x
         "
+        type="image/webp"
         media="(min-width: 1280px)"
       />
       <source
-        srcset="./img/girl-hero-tablet.png 1x, ./img/girl-hero-tablet-2x.png 2x"
+        srcset="
+          ./img/girl-hero-desktop.png    1x,
+          ./img/girl-hero-desktop-2x.png 2x
+        "
+        type="image/png"
+        media="(min-width: 1280px)"
+      />
+      <source
+        srcset="
+          ./img/girl-hero-tablet.webp    1x,
+          ./img/girl-hero-tablet-2x.webp 2x
+        "
+        type="image/webp"
         media="(min-width: 768px)"
+      />
+      <source
+        srcset="./img/girl-hero-tablet.png 1x, ./img/girl-hero-tablet-2x.png 2x"
+        type="image/png"
+        media="(min-width: 768px)"
+      />
+      <source
+        srcset="
+          ./img/girl-hero-mobile.webp    1x,
+          ./img/girl-hero-mobile-2x.webp 2x
+        "
+        media="(min-width: 375px)"
+        type="image/webp"
       />
       <source
         srcset="./img/girl-hero-mobile.png 1x, ./img/girl-hero-mobile-2x.png 2x"
         media="(min-width: 375px)"
+        type="image/png"
       />
       <img src="./img/girl-hero-desktop.png" alt="smile happy girl" />
     </picture>

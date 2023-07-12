@@ -229,6 +229,10 @@
 }
 
 .mob-content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding-top: 124px;
   height: 100%;
   background-color: var(--color-green);
 }
@@ -258,13 +262,6 @@
   line-height: 1.28;
   letter-spacing: -0.56px;
   text-transform: uppercase;
-}
-
-.mob-content {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-  padding-top: 124px;
 }
 
 .mob-navigation {
