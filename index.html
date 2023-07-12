@@ -14,8 +14,8 @@
     />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     
-    <script type="module" crossorigin src="/project-flex-team/assets/index-a5ee64f4.js"></script>
-    <link rel="stylesheet" href="/project-flex-team/assets/index-a620b9e3.css">
+    <script type="module" crossorigin src="/project-flex-team/assets/index-c9ff034f.js"></script>
+    <link rel="stylesheet" href="/project-flex-team/assets/index-5d77e4fb.css">
   </head>
   <body>
     <header class="page-header">
@@ -498,7 +498,7 @@
             type="tel"
             class="contacts-input"
             placeholder="+380 ()"
-            pattern="^\+[0-9]{3}\s\((\d+)\)-\d{3}-\d{2}-\d{2}&"
+            pattern="\+380\(\d{2}\)\d{7}"
             required
           />
           <button type="submit" class="contacts-button">Recall</button>
@@ -707,6 +707,8 @@
           id="user-name"
           name="user-name"
           placeholder="Enter full name..."
+          required
+          pattern="[a-zA-Z]"
         />
         <input
           type="email"
@@ -714,6 +716,8 @@
           id="user-email"
           name="user-email"
           placeholder="Enter email..."
+          required
+          pattern="^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$"
         />
         <input
           type="number"
@@ -721,6 +725,7 @@
           id="user-card"
           name="user-card"
           placeholder="Enter card..."
+          required
         />
         <textarea
           name="user-comments"
