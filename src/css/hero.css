@@ -61,6 +61,7 @@
   letter-spacing: -0.04em;
   text-transform: uppercase;
   margin-bottom: 14px;
+  text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
 }
 .hero-title-span {
   font-style: italic;
@@ -74,6 +75,7 @@
   line-height: 1.28;
   letter-spacing: -0.04em;
   margin-bottom: 20px;
+  text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
 }
 
 .hero-btn {
@@ -120,6 +122,7 @@
   letter-spacing: -0.04em;
   text-transform: uppercase;
   transition: color var(--transition), background-color var(--transition);
+  text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
 }
 
 .page-nav-item:is(:hover, :focus) {
