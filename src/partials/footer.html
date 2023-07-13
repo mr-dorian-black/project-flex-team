@@ -2,13 +2,24 @@
   <div class="foot-container">
     <div class="blocks">
       <div class="logo-images">
-        <img
-          srcset="./img/vegetable.jpg 1x, ./img/vegetable-2x.jpg 2x"
-          src="./img/vegetable.jpg"
-          alt="Veggie boost logo"
-          width="349"
-          height="179"
-        />
+        <picture>
+          <source
+            srcset="./img/vegetable.webp 1x, ./img/vegetable-2x.webp 2x"
+            type="image/webp"
+          />
+          <source
+            srcset="./img/vegetable.jpg 1x, ./img/vegetable-2x.jpg 2x"
+            type="image/jpg"
+          />
+          <img
+            srcset="./img/vegetable.webp 1x, ./img/vegetable-2x.webp 2x"
+            src="./img/vegetable.webp"
+            type="image/webp"
+            alt="Veggie boost logo"
+            width="349"
+            height="179"
+          />
+        </picture>
         <a href="#" class="footer-logo">
           <svg class="foot-logo-icon" viewBox="0 0 17 16">
             <use href="./img/sprite.svg#icon-logo"></use>

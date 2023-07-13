@@ -14,28 +14,56 @@
         <picture class="order-title-pic">
           <source
             srcset="
+              ./img/vegetables-desktop.webp    1x,
+              ./img/vegetables-desktop-2x.webp 2x
+            "
+            type="image/webp"
+            media="(min-width: 1280px)"
+          />
+          <source
+            srcset="
               ./img/vegetables-desktop.jpg    1x,
               ./img/vegetables-desktop-2x.jpg 2x
             "
+            type="image/jpg"
             media="(min-width: 1280px)"
+          />
+          <source
+            srcset="
+              ./img/vegetables-tablet.webp    1x,
+              ./img/vegetables-tablet-2x.webp 2x
+            "
+            type="image/webp"
+            media="(min-width: 768px)"
           />
           <source
             srcset="
               ./img/vegetables-tablet.jpg    1x,
               ./img/vegetables-tablet-2x.jpg 2x
             "
+            type="image/jpg"
             media="(min-width: 768px)"
+          />
+          <source
+            srcset="
+              ./img/vegetables-mobile.webp    1x,
+              ./img/vegetables-mobile-2x.webp 2x
+            "
+            type="image/webp"
+            media="(min-width: 375px)"
           />
           <source
             srcset="
               ./img/vegetables-mobile.jpg    1x,
               ./img/vegetables-mobile-2x.jpg 2x
             "
+            type="image/jpg"
             media="(min-width: 375px)"
           />
           <img
-            src="./img/vegetables-desktop.jpg"
+            src="./img/vegetables-desktop.webp"
             alt="vegetables"
+            type="image/webp"
             width="410"
             height="170"
           />
