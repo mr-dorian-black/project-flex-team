@@ -53,9 +53,16 @@
   cursor: pointer;
   background-color: transparent;
   border: none;
-}
-.modal-close-btn-icon {
   stroke: var(--color-black);
+  transition: stroke var(--transition);
+}
+
+.modal-close-btn:hover {
+  stroke: var(--color-green);
+}
+
+.modal-close-btn-icon {
+  stroke: inherit;
 }
 
 .modal-title {
